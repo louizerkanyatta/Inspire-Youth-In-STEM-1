@@ -1,0 +1,24 @@
+def factorial(n) :
+    for i in range (0,n):
+        fact_n= n*(n-1)
+    return fact_n
+    print(factorial(3))
+
+    #write a program to calculate simple interest
+#SI=P*R*T/100
+
+#python dates
+import datetime
+
+x=datetime.datetime.now()
+print(x)
+
+from datetime import datetime
+x= datetime.now()
+print(x)
+
+import datetime
+x=datetime.datetime.today()
+print(x)
+
+s_time= datetime(2023,2,23)

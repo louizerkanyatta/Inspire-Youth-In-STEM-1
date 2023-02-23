@@ -23,3 +23,12 @@ print(friends["height"])
 
 print(student.values())
 print(student.keys())
+
+
+ #SETS
+my_fruits =("apple","banana","passion")
+for fruits in my_fruits:
+    print(fruits)
+
+    print(type(my_fruits))
+    print(len(my_fruits))
