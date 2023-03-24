@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1> MY PLAYLIST </h1>
+        <a href="assignment_1"><img src="heather.jpg"></a><br>
+        <label>Conan Gray</label><br>
+        <audio controls>
+            <source src ="Conan-Gray-Disaster-24Naijamuzic-com.mp3"type="audio/mpeg">
+            </audio>
+        <button id="play_btn">Play</button>
+        <button id="stop_btn">Stop</button><br>
+
+        <a href="assignment_1"><img src="positions.jpg"></a><br>
+        <label>Ariana Grande </label><br>
+        <audio controls>
+            <source src ="Ariana_Grande_-_Positions.mp3"type="audio/mpeg">
+            </audio>
+        <button id="play_btn">Play</button>
+        <button id="stop_btn">Stop</button><br>
+
+        <a href="assignment_1"><img src="tiller.jpg"></a><br>
+        <label>Bryson Tlller</label><br>
+        <audio controls>
+            <source src="Bryson_Tiller_-_Don_t.mp3"type="audio/mpeg">
+            </audio>
+        <button id="play_btn">Play</button>
+        <button id="stop_btn">Stop</button><br>
+
+        <a href="assignment_1"><img src="sour.jpg"></a><br>
+        <label>Olivia Rodrigo</label><br>
+        <audio controls>
+            <source src ="Olivia_Rodrigo_-_Favorite_Crime.mp3"type="audio/mpeg">
+            </audio>
+        <button id="play_btn">Play</button>
+        <button id="stop_btn">Stop</button><br>
+        
+        <a href="assignment_1"><img src="index-1.jpg"></a><br>
+        <label>Sza</label><br>
+        <audio controls>
+            <source src ="sza_kill_bill_lyrics_-5099951736417393432.mp3"type="audio/mpeg">
+            </audio>
+        <button id="play_btn">Play</button>
+        <button id="stop_btn">Stop</button><br>
+        
+        
+         
+        
+

@@ -1,0 +1,3 @@
+Hello world from Mary and John
+try:
+f=open(C:\Users\Home\OneDrive\Documents\Inspire-Youth-In-STEM\Week4\test.txt)   

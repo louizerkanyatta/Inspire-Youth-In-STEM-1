@@ -1,0 +1,40 @@
+*{
+    background-color: aqua;
+}
+ h1{
+    font-size: 24px;
+    color: black;
+    align-self: center;
+}
+body{
+    font-family:Arial,serif;
+    font-weight:bold;
+    font-size:12px;
+    background-color: aqua;
+}
+button{
+    color: rgba(45, 175, 222, 0.906);
+    margin: 25px; 
+    align-self:centre;
+    border: none;
+    border-radius:10px;
+
+}
+
+p{
+    color: aquamarine;
+    font-size: x-large;
+    align-self: auto;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    
+}
+
+email button{
+    color: rgba(45, 175, 222, 0.906);
+    margin: 25px; 
+    align-self:centre;
+    border: none;
+    border-radius:10px;
+
+}

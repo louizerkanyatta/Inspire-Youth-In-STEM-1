@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <hi>LOG IN SYSTEMS</hi><br>
+    <lable for ="">Name</lable><br>
+    <input type="text"><br>
+    <lable for ="">Age</lable><br>
+    <input id="age" type="int"><br>
+    <button id ="confirm_btn"> CONFIRM</button>
+    <h2 id ="get in" >You can get in </h2>
+
+    <h1 id="number">0</h1>
+    <button id="increase_btn">Increase</button>
+    <button id="decrease_btn">Decrease</button>
+    <button id="Reset_btn">Reset</button>
+
+
+    <script>
+        var number =0
+        //increase
+        document.getElementById("Increase_btn").onclick=function increase_number{
+        number+= 1;
+        console.log (number)
+        document.getElementById("number").value=number
+
+    }
+    //decrease
+    document.getElementById("decrease_btn").onclick=function Decrease_number{
+        number-= 1;
+        console.log (number)
+        document.getElementById("number").value=number
+    }
+
+    
+        //let age =0
+let msg =""
+
+function add_numbers(num1, num2)
+{
+    return num1 + num2
+}
+console.log("Javascriot console testing")
+document.getElementById("confirm_btn").onclick=function check_age(){
+console.log("Button clicked!")
+    var age=document.getElementById("age").innerHTML.valueOf()
+    console.log(age)
+
+if(age<=18){
+    msg= "You are not allowed" 
+    console.log("You are not allowed")
+    document.getElementById("get_in").innerHTML=msg
+
+}else{
+    msg ="Welcome to the club"
+    consol.log("Welcome to the club")
+    document.getElementById("get_in").innerHTML=msg
+}
+} 
+    </script>
+</body>
